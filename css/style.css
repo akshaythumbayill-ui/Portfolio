@@ -360,6 +360,8 @@ img { display: block; max-width: 100%; }
   background: var(--bg);
   box-shadow: var(--neu-raised-sm);
   transition: box-shadow 0.25s, color 0.2s;
+  position: relative;
+  z-index: 2;
 }
 
 .hero-links a:hover {
@@ -894,6 +896,8 @@ img { display: block; max-width: 100%; }
   padding: var(--sp-md) var(--sp-lg);
   transition: box-shadow 0.25s, color 0.2s;
   text-decoration: none;
+  position: relative;
+  z-index: 1;
 }
 
 .contact-item:hover {
